@@ -9,8 +9,7 @@ def chatbot():
 
         
         if user in ["hi", "hello", "hey", "good morning", "good evening"]:
-            print("Bot: Hello! Nice to meet you. 😊")
-
+            print("Hello friend...how are you doing?")
         
         elif "your name" in user or "who are you" in user:
             print("Bot: My name is ChatBot. I'm a simple AI chatbot built using Python.")
@@ -25,7 +24,7 @@ def chatbot():
 
        
         elif user in ["i am fine", "fine", "good", "great", "awesome"]:
-            print("Bot: That's wonderful to hear! 😊")
+            print("Bot: That's wonderful to hear! ")
 
         
         elif "sad" in user or "not good" in user or "bad" in user:
@@ -78,7 +77,7 @@ def chatbot():
        
         elif "joke" in user:
             print("Bot: Why do programmers prefer dark mode?")
-            print("Bot: Because light attracts bugs! 😂")
+            print("Bot: Because light attracts bugs! ")
 
        
         elif "motivate" in user or "motivation" in user:
@@ -100,11 +99,11 @@ def chatbot():
 
        
         elif "thanks" in user:
-            print("Bot: You're welcome! Happy to help. 😊")
+            print("Bot: You're welcome! Happy to help. ")
 
         
         elif user in ["bye", "exit", "quit"]:
-            print("Bot: Goodbye! Have a wonderful day! 👋")
+            print("Bot: Goodbye! Have a wonderful day! ")
             break
 
       
